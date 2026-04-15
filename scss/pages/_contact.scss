@@ -1,0 +1,38 @@
+
+
+@use '../base/variables' as *;
+
+.contacto-extra { 
+    text-align: center;
+    align-content: center;
+    margin-top: 50px;
+    width: 50%;
+    .contacto-bloque{
+        padding: 10px;
+        margin: 10px;
+        border-radius: 30px;
+    }
+    .contact__title{
+        color: rgb(255, 251, 251);
+        font-family:$font-title;
+        font-size: 2rem;
+    }
+    .contact__paragraph{
+        color: rgb(88, 85, 85);
+        font-size: 1.2rem;
+    }
+}
+
+
+.container-extra{
+    background-color: #111;
+    padding:20px;
+    .extra__title{
+        font-family: $font-title;
+        font-size: 2rem;
+    }
+    .extra__paragraph{
+        font-family: $font-subtitle;
+        color: rgb(88, 85, 85);
+  }   
+ }

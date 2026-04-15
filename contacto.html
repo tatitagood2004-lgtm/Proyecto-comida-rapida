@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <!--Metadatos-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Descripcion-->
+    <meta name="description" content="Disfrutá de las mejores hamburguesas, pizzas y combos en Salta. Pedí ahora y viví una experiencia única.">
+    <!--Creador-->
+     <meta name="author" content="Ramón Alejandro Aguirre">
+    <!--Favicon-->
+    <link rel="icon" href="img/icono.png">
+    <meta name="keywords" content="comida, hamburguesas, pizza, delivery, Salta">
+    <!-- Cuando comparta mi pagina-->
+     <meta property="og:title" content="Las mejores hamburguesas en Salta">
+     <meta property="og:description" content="Probá nuestros combos increíbles al mejor precio. Pedí ahora.">
+     <meta property="og:image" content="img/hamburguesa.jpg">
+     <meta property="og:url" content="https://tupagina.com">
+     <meta property="og:type" content="website">
+      <!--Google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Baloo+2:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Boxi-icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Css -->
+    <link rel="stylesheet" href="./css/style.css"">
+    <!--Title-->
+    <title>El Bajón</title>
+</head>
+
+<!--Todo el contenido-->
+<main>
+<body class="coctacto">
+
+    <!--Menu-->
+    <header class="header__container">
+        <div class="header__top">
+            <!--logo + titulo-->
+                <img src="img/logo-2.png" alt="logo" class="header__logo">
+                <p class="header__title">El Bajón | Comida Rapida</p>
+        </div> 
+    </header>
+
+              <!--Navegación-->
+
+         <nav class="header__nav">
+         <ul class="header__nav__list">
+            <li class="header__item"><a href="index.html">Inicio</a></li>
+            <li class="header__item"><a href="#Menú">Menú</a></li>
+            <li class="header__item"><a href="#Nosotros">Nosotros</a></li>
+            <li class="header__item"><a href="#">Contacto</a></li>
+            <li class="header__item"><a href="#" class="nav__btn">Pedir ahora</a></li>
+         </ul>
+         </nav>
+
+    <main>
+      <section class="contacto-extra">
+
+         <div class="contacto-bloque">
+           <h2 class="contact__title">El Bajón</h2>
+           <p class="contact__paragraph">Estamos para ayudarte y darte la mejor experiencia.</p>
+         </div>
+
+         <div class="contacto-bloque aviso">
+           <h2 class="contact__title"> Aviso</h2>
+           <p class="contact__paragraph">Pedidos solo por <span style="color: green;">WhatsApp</span> o <span style="color: red;">redes sociales.</span></p>
+         </div>
+
+         <div class="contacto-bloque">
+           <h2 class="contact__title">Horarios</h2>
+           <p class="contact__paragraph">Lunes a Domingo: 18:00 - 01:00</p>
+         </div> 
+      </section>
+    
+
+
+
+      <section class="contacto container py-5">
+  <div class="row g-4 align-items-stretch">
+    <!--Formulario -->
+    <div class="col-md-6">
+      <div class="p-4 shadow rounded bg-dark text-white h-100">
+
+        <h2 class="mb-3"> Hacé tu pedido</h2>
+        <p class="mb-4">Dejanos tu mensaje y te respondemos al toque</p>
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Nombre:</label>
+            <input type="text" class="form-control" placeholder="Tu nombre" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Teléfono:</label>
+            <input type="tel" class="form-control" placeholder="387..." required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Email:</label>
+            <input type="email" class="form-control" placeholder="tuemail@gmail.com" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Mensaje:</label>
+            <textarea class="form-control" rows="4" placeholder="¿Qué querés pedir? "></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-danger w-100">
+             Enviar pedido
+          </button>
+        </form>
+
+        <!-- WhatsApp -->
+        <a href="https://wa.me/54387123456" target="_blank" class="btn btn-success w-100 mt-3">
+           Pedir por WhatsApp
+        </a>
+
+      </div>
+    </div>
+
+    <!-- Mapa -->
+    <div class="col-md-6">
+      <div class="h-100 rounded overflow-hidden shadow">
+
+        <iframe
+          src="https://www.google.com/maps?q=Salta+Capital&output=embed"
+          width="100%"
+          height="100%"
+          style="border:0; min-height: 400px;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+
+      </div>
+    </div>
+
+  </div>
+
+ 
+
+  </div>
+
+</section>
+
+ <!-- Un extra -->
+  <section>
+  <div class="text-center mt-5 text-white container-extra">
+
+    <h4 class="extra__title"> Estamos en Salta Capital</h4>
+    <p class="extra__paragraph">Zona centro — pedidos rápidos y calientes </p>
+
+    <p class="extra__paragraph">
+      <span style="color: white;">387-123456</span> <br>
+      <span class="extra__enlace"><a href="#">Elbajón@gmail.com</a></span> <br>
+       18:00 a 01:00
+    </p>
+   </section>
+      
+
+     <!--Footer-->
+         <footer class="footer">
+
+        <div class="footer__container">
+
+           <!-- Marca -->
+
+          <div class="footer__brand">
+            <h3>El Bajón</h3>
+            <img src="img/logo-2.png" alt="" class="footer_logo">
+            <p>La mejor comida de Salta </p>
+          </div>
+
+          <!-- Navegación -->
+
+          <div class="footer__links">
+            <h4>Secciones</h4>
+            <ul>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Promos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacto -->
+          <div class="footer__contact">
+            <h4>Contacto</h4>
+            <p>Salta, Argentina</p>
+            <p>387-123456</p>
+            <p>comida@gmail.com</p>
+          </div>
+
+          <!-- Redes -->
+          <div class="footer__social">
+            <h4>Seguinos</h4>
+            <div class="footer__icons">
+              <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-twitter" ></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Línea final -->
+         
+        <div class="footer__bottom">
+          <p>© 2026 Comida | El bajón. Todos los derechos reservados. </p>
+        </div>
+
+      </footer>
+
+      </main> 
+      <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</main>
+</html>
+
+ 

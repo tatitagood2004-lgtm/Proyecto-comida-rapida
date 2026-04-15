@@ -1,0 +1,60 @@
+
+@use '../base/variables' as *;
+
+//Boton de menu de navegacion
+
+.nav__btn {
+    background-color:#ae2e39;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 50px;
+    transition: all 0.1s ease;
+    &:hover{
+        box-shadow: 8px 8px 16px #cb3b3b, -8px -8px 16px #9e3131;
+    }
+}
+
+// Boton de contenido //
+.hero__btn{
+    background-color: red;
+    align-self: center;
+    padding: 20px;
+    border: 1px solid red;
+    border-radius: 50px;
+    transition: all 0.1s ease;
+    color:$color-enlace;
+    font-family: $font-text;
+    font-weight: bold;
+    cursor: pointer;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+    &:hover{
+        transform: translateY(-3px); /* Sube un poco */
+        box-shadow: 0 10px 10px 5px rgba(94, 10, 10, 0.15);
+
+    }
+
+
+}
+
+// Boton de sobre nosotros
+
+.about__btn{
+     background-color: red;
+    padding: 15px;
+    border: 1px solid red;
+    border-radius: 50px;
+    transition: all 0.1s ease;
+    color:$color-enlace;
+    font-family: $font-text;
+    font-weight: bold;
+    cursor: pointer;
+     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+
+    &:hover{
+        transform: translateY(-3px); /* Sube un poco */
+        box-shadow: 0 10px 10px 5px rgba(94, 10, 10, 0.15);
+
+    }
+
+}

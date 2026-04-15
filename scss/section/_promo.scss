@@ -1,0 +1,95 @@
+
+
+//Promos
+@use '../base/variables' as *;
+
+
+.promos {
+  padding: 60px 20px;
+  background: #0f0f0f;
+  text-align: center;
+  margin-top: 200px;
+
+  &__title {
+    font-size: 2rem;
+    color: #fff;
+    font-family: $font-title;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 25px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+
+.promo {
+  background: linear-gradient(145deg, #1a1a1a, #111);
+  border-radius: 15px;
+  padding: 25px;
+  text-align: center;
+  position: relative;
+  transition: 0.3s;
+  overflow: hidden;
+
+  border: 1px solid rgba(255, 60, 60, 0.2);
+
+  &:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.6);
+  }
+
+ 
+  &::before {
+    content: "Oferta";
+    position: absolute;
+    top: 10px;
+    left: -40px;
+    background: #ff3c3c;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 5px 40px;
+    transform: rotate(-45deg);
+  }
+
+  &__title {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    color: #aaa;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+  }
+
+  &__price {
+    display: block;
+    color: #ff3c3c;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  &__btn {
+    background: #ff3c3c;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+
+    &:hover {
+      background: #ff1f1f;
+      transform: scale(1.05);
+    }
+  }
+}

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <!--Metadatos-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Descripcion-->
+    <meta name="description" content="Disfrutá de las mejores hamburguesas, pizzas y combos en Salta. Pedí ahora y viví una experiencia única.">
+    <!--Creador-->
+     <meta name="author" content="Ramón Alejandro Aguirre">
+    <!--Favicon-->
+    <link rel="icon" href="img/icono.png">
+    <meta name="keywords" content="comida, hamburguesas, pizza, delivery, Salta">
+    <!-- Cuando comparta mi pagina-->
+     <meta property="og:title" content="Las mejores hamburguesas en Salta">
+     <meta property="og:description" content="Probá nuestros combos increíbles al mejor precio. Pedí ahora.">
+     <meta property="og:image" content="img/hamburguesa.jpg">
+     <meta property="og:url" content="https://tupagina.com">
+     <meta property="og:type" content="website">
+    <!--Google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Baloo+2:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Boxi-icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--Bootstrap-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Title-->
+    <title>El Bajón</title>
+</head>
+
+<!--Todo el contenido  -->
+
+<body>
+
+    <header class="header__container">
+        <div class="header__top">
+            <!--logo + titulo-->
+                <img src="img/logo-2.png" alt="Icono oficial de nuestra pagina el Bajon" class="header__logo">
+                <p class="header__title">El Bajón | Comida Rapida</p>
+        </div> 
+    </header>
+
+            <!--Navegación-->
+
+         <nav class="header__nav">
+         <ul class="header__nav__list">
+            <li class="header__item"><a href="index.html">Inicio</a></li>
+            <li class="header__item"><a href="#Menú">Menú</a></li>
+            <!-- <li class="header__item"> <a href="#Promos">Promociones</a></li> -->
+            <li class="header__item"><a href="#Nosotros">Nosotros</a></li>
+            <li class="header__item"><a href="contacto.html">Contacto</a></li>
+            <li class="header__item"><a href="#" class="nav__btn">Pedir ahora</a></li>
+         </ul>
+         </nav>
+  
+
+    <main>
+             <!--Contenido-->
+
+        <section class="hero">
+            <div class="hero__content">
+            <h1 class="hero__title">El Bajón que se arregla con sabor</h1>
+            <p class="hero__text">Cuando el hambre pega fuerte, El Bajón está listo para salvarte. Hamburguesas jugosas, papas crujientes y combos que no fallan. Todo rápido, rico y listo para disfrutar.</p>
+            <button class="hero__btn">Tengo Hambre</button>
+            </div>
+        </section>
+
+
+            <!--Menu-->
+
+        <section class="menu" id="Menú">
+         <h2 class="menu__title"> Nuestro Menú</h2>
+
+         <div class="menu__container">
+
+         <div class="menu__card">
+          <img src="img/hambuguesa-doble-carne.jpg" alt="Hamburguesa doble carne con queso cheddar" class="menu__img">
+           <h3 class="menu__title">Hamburguesas</h3>
+           <p class="menu__text">Doble carne + cheddar</p>
+           <span class="price">$4000</span>
+         </div>
+
+         <div class="menu__card">
+          <img src="img/papas-fritas.jpg" alt="Porción grande de papas fritas crujientes" class="menu__img">
+          <h3 class="menu__title">Papas fritas</h3>
+           <p class="menu__text">Porción grande</p>
+           <span>$1500</span>
+         </div>
+
+         <div class="menu__card">
+           <img src="img/pizza-especial.jpg" alt="Pizza especial con ingredientes variados" class="menu__img">
+           <h3 class="menu__title">Pizzas</h3>
+           <p class="menu__text">Porción grande</p>
+           <span>$1500</span>
+         </div>
+
+         <div class="menu__card">
+           <img src="img/sanwich.jpg" alt="Sándwich relleno con ingredientes frescos" class="menu__img">
+           <h3 class="menu__title">Sandwich</h3>
+           <p class="menu__text">Porción grande</p>
+           <span>$1300</span>
+         </div>
+
+
+       </div>
+     </section>
+          
+            <!-- Banner infinito -->
+       <section>
+            <div class="slider">
+              <div class="slide-track">
+                <img src="img/hamburguesa-main.jpg" alt="Hamburguesa doble carne">
+                <img src="img/sanwich.jpg" alt="Hamburguesa con cheddar">
+                <img src="img/pizza-comun.jpg" alt="Papas fritas crujientes">
+                <img src="img/hamburguesa-promo-mini.jpg" alt="Pizza especial">
+
+             <!-- efecto infinito -->
+              <!--Son mas decorativo dudo si tengo que ponerle descripcion al alt-->
+
+                <img src="img/hambuguesa-doble-carne.jpg" alt=""> 
+                <img src="img/hamburguesa-simple.jpg" alt="">
+                <img src="img/pizza-especial.jpg" alt="">
+                <img src="img/papas-fritas.jpg" alt="">
+              </div>
+            </div>
+        </section>
+        
+            <!--Promos-->
+
+         <section class="promos" id="Promos">
+         <h2 class="promos__title">Promociones</h2>
+        <div class="promos__container">
+
+       <div class="promo">
+          <h3 class="promo__title">Promoción de Sandwich</h3>
+          <p class="promo__text">Medio metro + Papas + Bebida</p>
+          <span class="promo__price">$10.500</span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+
+          <div class="promo">
+          <h3 class="promo__title">Promoción Burguer</h3>
+          <p class="promo__text">Combo Burger X2 + Papas + bebida </p>
+          <span class="promo__price">$8500</span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+
+          <div class="promo">
+          <h3 class="promo__title">Promocion Caja de papas</h3>
+          <p class="promo__text">Caja de Papas + Bebida</p>
+          <span class="promo__price">$5000</span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+
+          <div class="promo">
+          <h3 class="promo__title">Promoción de Pizzas</h3>
+          <p class="promo__text">Combo Pizza + Bebida</p>
+          <span class="promo__price">$8000</span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+
+       <div class="promo">
+          <h3 class="promo__title">Promoción Hamburguesas</h3>
+          <p class="promo__text">Combo Burger + Papas + Bebida</p>
+          <span class="promo__price">$4500</span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+
+       <div class="promo">
+          <h3 class="promo__title">Promo de Empanadas</h3>
+          <p class="promo__text">Empanada + Bebida</p>
+          <span class="promo__price">$8500
+          </span>
+          <button class="promo__btn">Agregar</button>
+        </div>
+       </div>
+         </section>
+
+             <!--Sobre nosotros-->
+
+         <section class="about" id="Nosotros">
+           <div class="about__container">
+
+             <div class="about__text">
+               <h2>Sobre Nosotros</h2>
+             <p>
+                En El Bajón nos especializamos en la elaboración de hamburguesas
+                artesanales, utilizando ingredientes seleccionados para garantizar
+                sabor y calidad en cada producto.
+              </p>
+              <p>
+                Trabajamos día a día para ofrecer una experiencia gastronómica
+                única, basada en la atención al cliente, la dedicación y la pasión
+                por lo que hacemos.
+             </p>
+             <button class="about__btn"><a href="sobreNosotros.html">Saber mas</a></button>
+             </div>
+
+             <div class="about__image">
+               <img src="img/Equipo sonriente en restaurante de hamburguesas.png" alt="Equipo de trabajo sonriente atendiendo en restaurante de hamburguesas">
+             </div>
+
+           </div>
+         </section>
+
+             <!--Opiniones-->
+
+          <section class="reviews">
+            <h2>Opiniones de clientes</h2>
+
+            <div class="reviews__container">
+
+              <article class="review">
+                <p>"Las mejores hamburguesas de Salta"</p>
+                <span>⭐⭐⭐⭐⭐</span>
+                <h4>- Juan</h4>
+              </article>
+
+              <article class="review">
+                <p>"Muy buena atención y comida riquísima"</p>
+                <span>⭐⭐⭐⭐⭐</span>
+                <h4>- María</h4>
+              </article>
+
+              <article class="review">
+                <p>"Voy siempre, nunca falla"</p>
+                <span>⭐⭐⭐⭐⭐</span>
+                <h4>- Lucas</h4>
+              </article>
+
+            </div>
+          </section>
+
+          <!--Horarios-->
+
+        <section class="info">
+          <h2>Información</h2>
+
+          <p>Salta, Argentina</p>
+          <p>Lunes a Domingo · 18:00 a 00:00 hs</p>
+        </section>
+
+
+             <!--Footer-->
+         <footer class="footer">
+
+        <div class="footer__container">
+
+           <!-- Marca -->
+
+          <div class="footer__brand">
+            <h3>El Bajón</h3>
+            <img src="img/logo-2.png" alt="icono oficial de nuestro emprendimiento el bajon" class="footer_logo">
+            <p>La mejor comida de Salta </p>
+          </div>
+
+          <!-- Navegación -->
+
+          <div class="footer__links">
+            <h4>Secciones</h4>
+            <ul>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Promos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacto -->
+          <div class="footer__contact">
+            <h4>Contacto</h4>
+            <p>Salta, Argentina</p>
+            <p>387-123456</p>
+            <p>comida@gmail.com</p>
+          </div>
+
+          <!-- Redes -->
+          <div class="footer__social">
+            <h4>Seguinos</h4>
+            <div class="footer__icons">
+              <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-twitter" ></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Línea final -->
+         
+        <div class="footer__bottom">
+          <p>© 2026 Comida | El bajón. Todos los derechos reservados. </p>
+        </div>
+
+      </footer>
+    </main>
+    
+    <!--Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+</html>

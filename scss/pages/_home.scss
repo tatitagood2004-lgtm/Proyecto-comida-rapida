@@ -1,0 +1,117 @@
+// Home
+
+@use '../base/variables' as *;
+
+.hero{
+    background-image: url("../img/hamburguesa-main.jpg");
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    &__content{
+        display: flex;
+        flex-direction: column;
+        color: aliceblue;
+        padding-top: 200px;
+    }
+    &__title{
+        font-family: $font-title;
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    &__text{
+        font-family: $font-subtitle;
+        color: $color-text;
+        text-align: center;
+        font-size: 1.1rem;
+        font-weight: bold;
+        padding: 1rem;
+        
+    }
+}
+
+
+
+
+//Opiniones 
+
+.reviews {
+  margin-top: 200px;
+  padding: 60px 20px;
+  background-color: #0a0a0a;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 2rem;
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+.review {
+  background-color: #1a1a1a;
+  padding: 25px;
+  border-radius: 15px;
+  color: #fff;
+  transition: 0.3s ease;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+
+  p {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+
+  span {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    color: #ff3c3c;
+    font-weight: 500;
+  }
+
+  &:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.6);
+  }
+}
+@media (max-width: 768px) {
+  .reviews__container {
+    grid-template-columns: 1fr;
+  }
+}
+
+// horarios
+
+.info {
+  padding: 60px 20px;
+  background-color: #0a0a0a;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 150px;
+
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 25px;
+    color: #ff3c3c;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 10px;
+    letter-spacing: 0.5px;
+  }
+}

@@ -1,0 +1,56 @@
+
+@use '../base/variables' as *;
+
+//Sobre nosotros 
+
+.about {
+  margin-top: 200px;
+  padding: 60px 20px;
+  background-color: #0f0f0f;
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 40px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__text {
+    color: #fff;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #ffffff;
+      font-family: $font-title;
+    }
+
+    p {
+      color: #ccc;
+      margin-bottom: 10px;
+      line-height: 1.6;
+    }
+  }
+
+  &__image {
+    img {
+      width: 100%;
+      border-radius: 15px;
+      object-fit: cover;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .about__container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+.about__btn a {
+  text-decoration: none;
+  color: #f6f6f6;
+}

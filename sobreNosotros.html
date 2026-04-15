@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es"> 
+    <!--Metadatos-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Descripcion-->
+    <meta name="description" content="Disfrutá de las mejores hamburguesas, pizzas y combos en Salta. Pedí ahora y viví una experiencia única.">
+    <!--Creador-->
+     <meta name="author" content="Ramón Alejandro Aguirre">
+    <!--Favicon-->
+    <link rel="icon" href="img/icono.png">
+    <meta name="keywords" content="comida, hamburguesas, pizza, delivery, Salta">
+    <!-- Cuando comparta mi pagina-->
+     <meta property="og:title" content="Las mejores hamburguesas en Salta">
+     <meta property="og:description" content="Probá nuestros combos increíbles al mejor precio. Pedí ahora.">
+     <meta property="og:image" content="img/hamburguesa.jpg">
+     <meta property="og:url" content="https://tupagina.com">
+     <meta property="og:type" content="website">
+      <!--Google font-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Baloo+2:wght@400;700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!--Boxi-icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--Css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Title-->
+    <title>El Bajón</title>
+</head>
+
+<!--Todo el contenido-->
+
+<main>
+    <body>
+
+        <!--Menu-->
+
+    <header class="header__container">
+        <div class="header__top">
+            <!--logo + titulo-->
+                <img src="img/logo-2.png" alt="imagen de un logo" class="header__logo">
+                <p class="header__title">El Bajón | Comida Rapida</p>
+        </div> 
+    </header>
+
+              <!--Navegación-->
+
+         <nav class="header__nav">
+         <ul class="header__nav__list">
+            <li class="header__item"><a href="index.html">Inicio</a></li>
+            <li class="header__item"><a href="#Menú">Menú</a></li>
+            <li class="header__item"><a href="#Nosotros">Nosotros</a></li>
+            <li class="header__item"><a href="#">Contacto</a></li>
+            <li class="header__item"><a href="#" class="nav__btn">Pedir ahora</a></li>
+         </ul>
+         </nav>
+
+
+    <!--Bootstrap-->
+
+         <section class="carrousel">
+       <div id="carouselExampleFade" class="carousel slide carousel-fade carrousel__container">
+    
+    <div class="carousel-inner carrousel__inner">
+      
+      <div class="carousel-item active carrousel__item">
+        <img src="img/carrousel.jpg" class="carrousel__img" alt="Equipo de trabajo en restaurante de hamburguesas">
+      </div>
+      
+      <div class="carousel-item carrousel__item">
+        <img src="img/restaurante-por-afuera.jpg" class="carrousel__img" alt="Vista exterior del restaurante El Bajón">
+      </div>
+      
+      <div class="carousel-item carrousel__item">
+        <img src="img/restaurante-por-adentro.jpg" class="carrousel__img" alt="Interior del restaurante con mesas y ambiente cálido">
+      </div>
+
+    </div>
+
+       <button class="carousel-control-prev carrousel__btn carrousel__btn--prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next carrousel__btn carrousel__btn--next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+
+         </div>
+       </section>
+
+
+       <section class="sobre__nosotros">
+
+          <div class="sobre__nosotros--container">
+            <div class="sobre__nosotros--text">
+           <h1 class="sobre__title">Nuestra esencia</h1>
+           <p class="sobre__paragraph">
+            En El Bajón creemos que los mejores momentos siempre pasan alrededor de una buena comida. 
+            Por eso cuidamos cada detalle: desde los ingredientes hasta la atención, para que todo tenga ese toque especial.
+           </p>
+
+           <p class="sobre__paragraph">
+              No buscamos ser uno más, queremos que cada visita tenga algo distinto. Ya sea una salida 
+              con amigos, una cena tranquila o ese antojo que aparece de la nada, estamos para acompañarte.
+              
+           </p>
+           </div>
+
+          </div>
+
+         <div>
+           <img src="img/nuestra-esencia.jpg" alt="Preparación de hamburguesas con ingredientes frescos" class="sobre__img">
+          </div>
+       </section>
+
+
+       <section class="sobre__nosotros">
+         <div class="sobre__imagen">
+           <img src="img/nuestra-historia.jpg" alt="imagen que presenta un local lleno de historia por dentras">
+         </div>
+
+         <article class="sobre__texto">
+           <h1>Nuestra historia</h1>
+
+           <p>
+             Todo comenzó con la idea de crear un lugar donde la comida sea más que solo        comer. 
+             En El Bajón buscamos ofrecer sabores únicos, con productos de calidad y un        toque casero.
+           </p>
+
+           <p>
+             Con el tiempo fuimos creciendo, siempre manteniendo lo más importante: 
+             la buena atención, el ambiente y las ganas de que cada cliente se vaya        satisfecho.
+           </p>
+
+           <h2 class="sobre__frase">“Cada hamburguesa cuenta una historia”</h2>
+         </article>
+
+       </section>
+
+     <!--Footer-->
+         <footer class="footer">
+
+        <div class="footer__container">
+
+           <!-- Marca -->
+
+          <div class="footer__brand">
+            <h3>El Bajón</h3>
+            <img src="img/logo-2.png" alt="" class="footer_logo">
+            <p>La mejor comida de Salta </p>
+          </div>
+
+          <!-- Navegación -->
+
+          <div class="footer__links">
+            <h4>Secciones</h4>
+            <ul>
+              <li><a href="#">Menú</a></li>
+              <li><a href="#">Promos</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+
+          <!-- Contacto -->
+          <div class="footer__contact">
+            <h4>Contacto</h4>
+            <p>Salta, Argentina</p>
+            <p>387-123456</p>
+            <p>comida@gmail.com</p>
+          </div>
+
+          <!-- Redes -->
+          <div class="footer__social">
+            <h4>Seguinos</h4>
+            <div class="footer__icons">
+              <a href="#" target="_blank"><i class="bx bxl-facebook"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-instagram"></i></a>
+              <a href="#" target="_blank"><i class="bx bxl-twitter" ></i></a>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Línea final -->
+         
+        <div class="footer__bottom">
+          <p>© 2026 Comida | El bajón. Todos los derechos reservados. </p>
+        </div>
+
+      </footer>
+
+      
+      <!--Bootstrap-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</main> 
+</html>
+
+ 

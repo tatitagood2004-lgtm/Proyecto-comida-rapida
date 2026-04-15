@@ -1,0 +1,31 @@
+
+
+.slider {
+  overflow: hidden;
+  margin-top: 5%;
+  width: 100%;
+  align-items: center;
+}
+
+.slide-track {
+  display: flex;
+  width: calc(250px * 8);
+  animation: scroll 30s linear infinite;
+}
+
+.slide-track img {
+  width: 250px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
