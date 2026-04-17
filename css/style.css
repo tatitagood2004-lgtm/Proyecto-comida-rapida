@@ -4,7 +4,7 @@
     box-sizing: border-box;
     overflow-x: hidden;
   }
-  .header__nav__list {
+  .header__nav {
     padding: 0;
     flex-direction: row;
     justify-content: space-around;
