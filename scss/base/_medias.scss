@@ -1,10 +1,15 @@
 
+@media (max-width: 480px){
 
-@media (min-width: 768px) {
-
-  .header__nav__list {
+  body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+    .header__nav__list {
+    padding: 0;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
   }
 
   .menu__container {
@@ -28,9 +33,38 @@
 
 
 
+// @media (min-width: 768px) {
 
-@media (min-width: 1024px) {
-  .menu__container {
-    grid-template-columns: repeat(4, 1fr);
-  }
-}
+//   .header__nav__list {
+//     flex-direction: row;
+//     justify-content: center;
+//   }
+
+//   .menu__container {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+
+//   .promos__container {
+//     grid-template-columns: repeat(2, 1fr);
+//   }
+
+//   .about__container {
+//     flex-direction: row;
+//   }
+
+//   .reviews__container {
+//     flex-direction: row;
+//   }
+
+// }
+
+
+
+
+
+// @media (min-width: 1024px) {
+//   .menu__container {
+//     grid-template-columns: repeat(4, 1fr);
+//   }
+// }
+
